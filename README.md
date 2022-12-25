@@ -62,3 +62,9 @@ $\mbox{OLED\\_RESET = -1 (sharing ESP32 reset pin)}$<br>
 | SCL     | GPIO22 |
 | SDA     | GPIO21 |
 
+
+
+## Schematics
+
+<img src="./img/ARSLab_DevKit.jpg">
+

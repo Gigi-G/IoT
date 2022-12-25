@@ -15,9 +15,9 @@
 // These are the pins used of the ESP32
 #define PIN_WHITE   13
 #define PIN_BLUE    12
-#define SEM_RED     26
-#define SEM_YELLOW  27 
-#define SEM_GREEN   14
+#define PIN_RED     26
+#define PIN_YELLOW  27 
+#define PIN_GREEN   14
 #define PIN_BTN1    25
 #define PIN_BTN2    33
 #define PIN_RESET   2
@@ -88,18 +88,18 @@ void setup() {
 
     pinMode(PIN_WHITE, OUTPUT);
     pinMode(PIN_BLUE, OUTPUT);
-    pinMode(SEM_RED, OUTPUT);
-    pinMode(SEM_YELLOW, OUTPUT);
-    pinMode(SEM_GREEN, OUTPUT);
+    pinMode(PIN_RED, OUTPUT);
+    pinMode(PIN_YELLOW, OUTPUT);
+    pinMode(PIN_GREEN, OUTPUT);
     pinMode(PIN_BTN1, INPUT);
     pinMode(PIN_BTN2, INPUT);
 
     digitalWrite(PIN_WHITE, 0);
     digitalWrite(PIN_BLUE, 1);
 
-    digitalWrite(SEM_RED, 0);
-    digitalWrite(SEM_YELLOW, 0);
-    digitalWrite(SEM_GREEN, 0);
+    digitalWrite(PIN_RED, 0);
+    digitalWrite(PIN_YELLOW, 0);
+    digitalWrite(PIN_GREEN, 0);
 
     mrf.reset();
     mrf.init();
@@ -159,9 +159,9 @@ void loop() {
 
         digitalWrite(PIN_WHITE, digitalRead(PIN_BLUE));
         digitalWrite(PIN_BLUE, !digitalRead(PIN_WHITE));
-        digitalWrite(SEM_RED, !digitalRead(SEM_RED));
-        digitalWrite(SEM_YELLOW, !digitalRead(SEM_YELLOW));
-        digitalWrite(SEM_GREEN, !digitalRead(SEM_GREEN));
+        digitalWrite(PIN_RED, !digitalRead(PIN_RED));
+        digitalWrite(PIN_YELLOW, !digitalRead(PIN_YELLOW));
+        digitalWrite(PIN_GREEN, !digitalRead(PIN_GREEN));
 
         if (!currentBtnState[0] == HIGH) {
             Serial.println("Button 1 pressed");

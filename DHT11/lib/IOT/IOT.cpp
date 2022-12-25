@@ -8,18 +8,18 @@ IOT::IOT(word panid, word address, bool promiscuous, bool palna, bool bufferPHY)
     // Initialize the pins
     pinMode(PIN_WHITE, OUTPUT);
     pinMode(PIN_BLUE, OUTPUT);
-    pinMode(SEM_RED, OUTPUT);
-    pinMode(SEM_YELLOW, OUTPUT);
-    pinMode(SEM_GREEN, OUTPUT);
+    pinMode(PIN_RED, OUTPUT);
+    pinMode(PIN_YELLOW, OUTPUT);
+    pinMode(PIN_GREEN, OUTPUT);
     pinMode(PIN_BTN1, INPUT_PULLUP);
     pinMode(PIN_BTN2, INPUT_PULLUP);
 
     // Turn off the LEDs
     digitalWrite(PIN_WHITE, 0);
     digitalWrite(PIN_BLUE, 0);
-    digitalWrite(SEM_RED, 0);
-    digitalWrite(SEM_YELLOW, 0);
-    digitalWrite(SEM_GREEN, 0);
+    digitalWrite(PIN_RED, 0);
+    digitalWrite(PIN_YELLOW, 0);
+    digitalWrite(PIN_GREEN, 0);
 
     // Initialize the display and the mrf24j
     init(panid, address, promiscuous, palna, bufferPHY);

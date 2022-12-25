@@ -19,9 +19,9 @@
 // These are the pins used of the ESP32
 #define PIN_WHITE   13      // White LED
 #define PIN_BLUE    12      // Blue LED
-#define SEM_RED     26      // Red LED
-#define SEM_YELLOW  27      // Yellow LED
-#define SEM_GREEN   14      // Green LED
+#define PIN_RED     26      // Red LED
+#define PIN_YELLOW  27      // Yellow LED
+#define PIN_GREEN   14      // Green LED
 #define PIN_BTN1    25      // Button 1
 #define PIN_BTN2    33      // Button 2
 #define PIN_RESET   2       // Reset pin

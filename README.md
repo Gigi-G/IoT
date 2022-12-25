@@ -50,11 +50,10 @@ To use buttons, LEDs, and an OLED display SSD1306 with the ESP32, you can follow
 ## OLED display SSD1306
 
 <img src="./img/SSD1306-OLED-Pinout.jpg" style="zoom:50%;" >
-$$
-\mbox{SCREEN\_WIDTH = 128}\\
-\mbox{SCREEN\_HEIGHT = 64}\\
-\mbox{OLED\_RESET = -1 (sharing ESP32 reset pin)}
-$$
+
+$\mbox{SCREEN\\_WIDTH = 128}$<br>
+$\mbox{SCREEN\\_HEIGHT = 64}$<br>
+$\mbox{OLED\\_RESET = -1 (sharing ESP32 reset pin)}$<br>
 
 | SSD1306 | ESP32  |
 | ------- | ------ |

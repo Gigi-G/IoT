@@ -32,7 +32,7 @@ To use buttons, LEDs, and an OLED display SSD1306 with the ESP32, you can follow
 
 ## MRF24J module
 
-<img src="./img/MRF24J.png">
+<img src="./img/MRF24J.PNG">
 
 | MRF24J                    | ESP32  | CONSTANT  |
 | ------------------------- | ------ | --------- |
@@ -49,7 +49,7 @@ To use buttons, LEDs, and an OLED display SSD1306 with the ESP32, you can follow
 
 ## OLED display SSD1306
 
-<img src="./img/SSD1306-OLED-Pinout.jpg" style="zoom:50%;" >
+<img src="./img/SSD1306-OLED-Pinout.jpg" style="height: 250px; width:auto;" >
 
 $\mbox{SCREEN\\_WIDTH = 128}$<br>
 $\mbox{SCREEN\\_HEIGHT = 64}$<br>

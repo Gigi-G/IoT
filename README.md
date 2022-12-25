@@ -70,3 +70,5 @@ $\mbox{OLED\\_RESET = -1 (sharing ESP32 reset pin)}$<br>
 
 
 **LINK**: [https://github.com/Gigi-G/IoT/blob/main/Schematics/ARSLab_DevKit.pdf](https://github.com/Gigi-G/IoT/blob/main/Schematics/ARSLab_DevKit.pdf)
+
+<img src="./img/Kit.jpg">
